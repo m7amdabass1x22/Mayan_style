@@ -43,14 +43,14 @@ export default function HomePage() {
                 <BsTelegram className="text-[40px] " />
                 <h1 className="  font-bold">Telegram app group</h1>
               </a>
-              <button
+              <a
                 href="01000915291"
                 target="_blank"
                 className="text-gray-950 w-[70%] h-[50px] rounded-3xl flex items-center justify-center bg-amber-50  gap-5 hover:bg-gray-500  hover:text-white lg:w-[55%]"
               >
                 <IoCallOutline className="text-[40px]  " />
                 <h1 className="  font-bold hover:text">01000915291</h1>
-              </button>
+              </a>
             </div>
           </div>
         </div>
