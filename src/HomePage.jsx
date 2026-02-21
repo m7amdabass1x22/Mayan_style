@@ -13,7 +13,7 @@ export default function HomePage() {
       <div>
         <Header />
       </div>
-      <div className=" w-full h-dvh  flex justify-center lg:h-[590px]">
+      <div className=" w-full h-dvh  flex justify-center bg-gray-950 lg:h-[590px] lg:bg-white">
         <div className="container flex justify-center flex-col items-center">
           <div className="w-[100%]  h-full bg-gray-950   drop-shadow-black flex justify-center items-center flex-col lg:w-[50%] lg:rounded-3xl">
             <img className=" w-40" src={logo} alt="" />
