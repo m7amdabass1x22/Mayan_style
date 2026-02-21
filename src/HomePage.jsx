@@ -33,7 +33,7 @@ export default function HomePage() {
                 className="text-gray-950 w-[70%] h-[50px] rounded-3xl flex items-center justify-center bg-amber-50 gap-5 hover:bg-blue-900 hover:text-white lg:w-[55%]"
               >
                 <FaFacebook className="text-[40px]" />
-                <h1 className="  font-bold">whats app group</h1>
+                <h1 className="  font-bold">facebook app group</h1>
               </a>
               <a
                 href="https://t.me/az_1572011?fbclid=IwdGRjcAQFvE1leHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR49iyQ6NT7r8WK6S9PL-yFsktbEI1hCphJ2wvgTr9ejyCrFZ-tsBUbeUqwyUg_aem_hLBHRFa0xJ0hWcE9f_lQ-g"
@@ -41,7 +41,7 @@ export default function HomePage() {
                 className="text-gray-950 w-[70%] h-[50px] rounded-3xl flex items-center justify-center bg-amber-50 gap-5 hover:bg-cyan-300  hover:text-white lg:w-[55%]"
               >
                 <BsTelegram className="text-[40px] " />
-                <h1 className="  font-bold">whats app group</h1>
+                <h1 className="  font-bold">Telegram app group</h1>
               </a>
               <a
                 href="01000915291"
