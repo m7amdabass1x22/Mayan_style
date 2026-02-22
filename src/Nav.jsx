@@ -7,7 +7,7 @@ export default function () {
       <div className= "text-amber-50  flex gap-5">
         <NavLink to="/"> home</NavLink>
         <NavLink to="/About us">About us</NavLink>
-        <NavLink to="/contact">contact</NavLink>
+        {/* <NavLink to="/contact">contact</NavLink> */}
         
       </div>
     </>
