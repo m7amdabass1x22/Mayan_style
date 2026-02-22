@@ -5,9 +5,20 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
 import logo from "./assets/ChatGPT Image Feb 21, 2026, 02_32_14 AM.png";
-import { IoCallOutline } from "react-icons/io5";
+import { IoLocationOutline } from "react-icons/io5";
 
 export default function HomePage() {
+  function Contact() {
+    const phoneNumber = "+201234567890";
+
+    return (
+      <div>
+        <h3>اتصل بينا</h3>
+        <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
+      </div>
+    );
+  }
+
   return (
     <div className="overflow-hidden">
       <div>
@@ -17,7 +28,17 @@ export default function HomePage() {
         <div className="container flex justify-center flex-col items-center">
           <div className="w-[100%]  h-full bg-gray-950   drop-shadow-black flex justify-center items-center flex-col lg:w-[50%] lg:rounded-3xl">
             <img className=" w-40" src={logo} alt="" />
-<h1 className="text-yellow-300 font-bold text-[20px]"> ...مصنع ميان استيل يرحب بكم</h1>
+            <h1 className="text-yellow-300 font-bold text-[20px]">
+              {" "}
+              ...مصنع ميان استيل يرحب بكم
+            </h1>
+            <a
+              href="tel:+201000915291"
+              className="text-yellow-300 font-bold text-[20px]"
+            >
+              {" "}
+              01000915291
+            </a>
             <div className="w-full h-full flex justify-center items-center flex-col gap-5 ">
               <a
                 href="https://chat.whatsapp.com/Es3mi6Lq3oS694fRnCgSpv?fbclid=IwdGRjcAQFvIpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7JvIjOazIVIWiqb5dm8TGN4und4k3J0KgjMJMFims5CAXvvfKWhEoXaWjiig_aem_s7U8gY3m2CZDaQ8vRvgO4Q"
@@ -44,12 +65,12 @@ export default function HomePage() {
                 <h1 className="  font-bold">Telegram app group</h1>
               </a>
               <a
-                href="01000915291"
+                href="https://maps.app.goo.gl/UHtTcQx5nKmU2VWcA?g_st=aw"
                 target="_blank"
-                className="text-gray-950 w-[70%] h-[50px] rounded-3xl flex items-center justify-center bg-amber-50  gap-5 hover:bg-gray-500  hover:text-white lg:w-[55%]"
+                className="text-gray-950 w-[70%] h-[50px] rounded-3xl flex items-center justify-center bg-amber-50  gap-15 hover:bg-gray-500  hover:text-white lg:w-[55%]"
               >
-                <IoCallOutline className="text-[40px]  " />
-                <h1 className="  font-bold hover:text">01000915291</h1>
+                <IoLocationOutline className="text-[40px]  " />
+                <h1 className="  font-bold hover:text">our location</h1>
               </a>
             </div>
           </div>
