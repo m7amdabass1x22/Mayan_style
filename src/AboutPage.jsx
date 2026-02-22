@@ -109,7 +109,7 @@ export default function AboutPage() {
     <>
       <Header/>
       <div className="flex justify-center mt-20 ">
-        <div className="grid-cols-1 h-dvh flex-wrap flex justify-center items-center container gap-5 lg:grid-cols-3 ">
+        <div className="grid-cols-1 h-dvh flex-wrap flex justify-center items-center container gap-10 lg:grid-cols-3 ">
           <div className="carousel rounded-box w-82 ">
             <div className="carousel-item w-full">
               <img
